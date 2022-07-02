@@ -1,0 +1,20 @@
+.contanerGeneral{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contanerGeneral > div{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items:center ;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.contanerGeneral img{
+   width: 200px;
+}

@@ -1,8 +1,20 @@
 import '../../style/ItemListContainer.css';
-const ItemListContainer = ({ greeting }) => {
+import ItemsList from './ItemsList';
+
+
+const ItemListContainer = ({ items }) => {
+
+
+
+
     return (
-        <div className="ItemListContainer">{greeting}</div>
+        <div>
+            <ItemsList />
+        </div>
     )
 }
+
+
+
 
 export default ItemListContainer
